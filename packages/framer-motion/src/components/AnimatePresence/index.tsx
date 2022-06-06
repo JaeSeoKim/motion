@@ -143,7 +143,6 @@ export const AnimatePresence: React.FunctionComponent<
     }
 
     // If this is a subsequent render, deal with entering and exiting children
-    childrenToRender = [...childrenToRender]
 
     // Diff the keys of the currently-present and target children to update our
     // exiting list.
